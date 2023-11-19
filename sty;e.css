@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Jost&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;   
+}
+
+.navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    /* border:  1px solid black; */
+
+}
+.navbar span img{
+    width: 8%;
+    margin-left: 15.8%;
+    
+}
+
+.navbar span{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    /* border:  1px solid black; */
+}
+
+.navbar ul{
+    width: 35%;
+    margin-left: 25%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border:  1px solid black; */
+}
+
+.navbar span hr{
+    height: 50%;
+    margin-right: 4%;
+}
+
+.navbar p {
+    margin-right: 20%;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-top: 6%; */
+}
+.span-1 h1{
+    font-size: 280%;
+}
+.span-1 h3{
+    font-size: 150%;
+}
+.span-2 hr{
+    width: 8%;
+}
+
+.span-2 p{
+    font-size: 75%;
+}
+
+.container-img{
+    width: 80%;
+    height: 35%;
+    background-image: url(./image/julia-khalimova-NXu4tjhuh3A-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border:  1px solid black;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 10%;  
+}
+.text-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10%;
+}
+.text-part span h4{
+    font-size: 80%;
+    margin-top: 1%;
+}
+.text-part span h6{
+    font-size: 65%;
+    margin-top: 1%;
+}
+
+#pro{
+    width: 100%;
+    text-align: center;
+    /* margin-top: 50px; */
+}
+
+.hr{
+    width: 100%;
+    padding: 50px;
+}
+
+
+.text-project{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border-top: 2px solid yellow;
+}
+
+.box-1{
+    width: 30%;
+    height: 100px;
+    border-left: 1px solid yellow; 
+    text-align: center;
+    padding-top: 10px;
+}
+.box-2{
+    width: 20%;
+    height: 100px;
+    border-left: 1px solid yellow;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
